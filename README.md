@@ -1,4 +1,4 @@
-## SQOOP
+# SQOOP Command Lines
 
 This repo contains dozens of useful Sqoop useful command lines that optimizes data transfers between relational databases and Hadoop.
 
@@ -12,3 +12,7 @@ Sqoop is both powerful and bewildering, but with this cookbook’s problem-solut
 - Run Sqoop within Oozie, Hadoop’s specialized workflow scheduler
 - Load data into Hadoop’s data warehouse (Hive) or database (HBase)
 - Handle installation, connection, and syntax issues common to specific database vendors
+
+# Questions?
+
+Email: [hoaquach@gmail.com](mailto:hoaquach@gmail.com)
