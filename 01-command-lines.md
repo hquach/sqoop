@@ -1,6 +1,34 @@
-# Sqoop
+# Sqoop Command Line  Part I
 
-# Command Line 
+Table of Contents
+===================
+
+* [Transferring an Entire Table](#Transferring-an-Entire Table)
+* [Specifying a Target Directory](#Specifying-a-Target-Directory)
+* [To specify the parent directory for all your Sqoop jobs](#To-specify-the-parent-directory-for-all-your-Sqoop-jobs)
+* [Importing Only a Subset of Data](#Importing-Only-a-Subset-of-Data)
+* [Protecting Your Password](#Protecting Your Password)
+* [Here’s an example of reading the password from a file](#Here-an-example-of-reading-the-password-from-a-file)
+* [Using a File Format Other Than CSV](#Using-a-File-Format-Other-Than-CSV)
+* [Compressing Imported Data](#Compressing-Imported-Data)
+* [Speeding Up Transfers](#Speeding-Up-Transfers)
+* [Overriding Type Mapping](#Overriding-Type-Mapping)
+* [Controlling Parallelism](#Controlling-Parallelism)
+* [Encoding NULL Values](#Encoding-NULL-Values)
+* [Importing All Your Tables](#Importing-All-Your-Tables)
+* [Excluding tables](#Excluding-tables)
+* [Importing Only New Data](#Importing-Only-New-Data)
+* [Incrementally Importing Mutable Data](#Incrementally-Importing-Mutable-Data)
+* [Importing Data from Two Tables](#Importing-Data-from-Two-Tables)
+* [Using Custom Boundary Queries](#Using-Custom-Boundary-Queries)
+* [Renaming Sqoop Job Instances	](#Renaming-Sqoop-Job-Instances)
+* [Importing Queries with Duplicated Columns](#Importing-Queries-with-Duplicated-Columns)
+* [Transferring Data from Hadoop](#Transferring-Data-from-Hadoop)
+* [Inserting Data in Batches](#Inserting-Data-in-Batches)
+* [Updating an Existing Data Set](#Updating-an-Existing-Data-Set)
+* [Updating or Inserting at the Same Time](#Updating-or-Inserting-at-the-Same-Time)
+* [Exporting into a Subset of Columns](#Exporting-into-a-Subset-of-Columns)
+
 
 # Transferring an Entire Table
 
@@ -139,7 +167,7 @@ sqoop import-all-tables \
 	--password sqoop \
 	--exclude-tables cities,countries		
 
-# Importing Only New Data	
+# Importing Only New Data
 
 '''
 Problem
@@ -171,7 +199,7 @@ sqoop import \
 	--check-column id \
 	--last-value 1
 
-# Incrementally Importing Mutable Data	
+# Incrementally Importing Mutable Data
 
 '''
 Problem

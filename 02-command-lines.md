@@ -1,6 +1,17 @@
-# Sqoop
+# Sqoop Command Line Part II
 
-# Command Line 
+Table of Contents
+===================
+
+* [Scheduling Sqoop Jobs with Oozie](#Scheduling-Sqoop-Jobs-with-Oozie)
+* [Importing Data Directly into Hive](#Importing-Data-Directly-into-Hive)
+* [Using Partitioned Hive Tables](#Using-Partitioned-Hive-Tables)
+* [Replacing Special Delimiters During Hive Import](#Replacing-Special-Delimiters-During-Hive-Import)
+* [Using the Correct NULL String in Hive](#Using-the-Correct-NULL-String-in-Hive)
+* [Importing Data into HBase, Hadoop's real-time database](#Importing-Data-into-HBase-Hadoopss-real-time-database)
+* [Importing All Rows into HBase](#Importing-All-Rows-into-HBase)
+* [Improving Performance When Importing into HBase](#Improving-Performance-When-Importing-into-HBase)
+
 
 # Scheduling Sqoop Jobs with Oozie
 
