@@ -3,7 +3,7 @@
 Table of Contents
 ===================
 
-* [Transferring an Entire Table](#Transferring-an-Entire-Table)
+* [Transferring an Entire Table](#transferring-an-entire-table)
 * [Specifying a Target Directory](01-command-lines.md#Specifying-a-Target-Directory)
 * [To specify the parent directory for all your Sqoop jobs](01-command-lines.md#To-specify-the-parent-directory-for-all-your-Sqoop-jobs)
 * [Importing Only a Subset of Data](01-command-lines.md#Importing-Only-a-Subset-of-Data)
