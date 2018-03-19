@@ -3,14 +3,14 @@
 Table of Contents
 ===================
 
-* [Scheduling Sqoop Jobs with Oozie](02-command-lines.md#Scheduling-Sqoop-Jobs-with-Oozie)
-* [Importing Data Directly into Hive](02-command-lines.md#Importing-Data-Directly-into-Hive)
-* [Using Partitioned Hive Tables](02-command-lines.md#Using-Partitioned-Hive-Tables)
-* [Replacing Special Delimiters During Hive Import](02-command-lines.md#Replacing-Special-Delimiters-During-Hive-Import)
-* [Using the Correct NULL String in Hive](02-command-lines.md#Using-the-Correct-NULL-String-in-Hive)
-* [Importing Data into HBase, Hadoop's real-time database](02-command-lines.md#Importing-Data-into-HBase-Hadoopss-real-time-database)
-* [Importing All Rows into HBase](02-command-lines.md#Importing-All-Rows-into-HBase)
-* [Improving Performance When Importing into HBase](02-command-lines.md#Improving-Performance-When-Importing-into-HBase)
+* [Scheduling Sqoop Jobs with Oozie](#scheduling-sqoop-jobs-with-oozie)
+* [Importing Data Directly into Hive](#importing-data-directly-into-hive)
+* [Using Partitioned Hive Tables](#using-partitioned-hive-tables)
+* [Replacing Special Delimiters During Hive Import](#replacing-special-delimiters-during-hive-import)
+* [Using the Correct NULL String in Hive](#using-the-correct-null-string-in-hive)
+* [Importing Data into HBase, Hadoop's real-time database](#importing-data-into-hbase-hadoops-real-time-database)
+* [Importing All Rows into HBase](#Importing-All-Rows-into-HBase)
+* [Improving Performance When Importing into HBase](#improving-performance-when-importing-into-hbase)
 
 
 # Scheduling Sqoop Jobs with Oozie
