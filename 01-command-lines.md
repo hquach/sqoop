@@ -47,7 +47,7 @@ sqoop import \
 	--table cities \
 	--target-dir /etl/input/cities
 
-# To specify the parent directory for all your Sqoop jobs, instead use the --warehousedir parameter:
+# To specify the parent directory for all your Sqoop jobs:
 
 sqoop import \
 	--connect jdbc:mysql://mysql.example.com/sqoop \
